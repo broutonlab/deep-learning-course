@@ -21,3 +21,5 @@ Week 4-5 (2019-03-05, 2019-03-12): Neural networks. Backpropagation. Momentum, N
  
  # Articles
  - [Review of linear methods](https://habr.com/ru/company/ods/blog/323890/#1-lineynaya-regressiya) by ODS community (Russian)
+
+[Google Colab link](https://colab.research.google.com/)
