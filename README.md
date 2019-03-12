@@ -17,3 +17,7 @@ Week 4-5 (2019-03-05, 2019-03-12): Neural networks. Backpropagation. Momentum, N
 # Recommended literature
  - [The Elements of Statistical Learning - Stanford University](https://web.stanford.edu/~hastie/ElemStatLearn//printings/ESLII_print10.pdf) by Trevor Hastie, Robert Tibshirani, Jerome Friedman
  - [Machine Learning Yearning](https://www.mlyearning.org/) by Andrew Ng
+ 
+ 
+ # Articles
+ - [Review of linear methods](https://habr.com/ru/company/ods/blog/323890/#1-lineynaya-regressiya) by ODS community (Russian)
