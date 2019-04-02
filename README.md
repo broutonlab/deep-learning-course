@@ -17,7 +17,7 @@ Week 7 (2019-03-26): Internals of RNN/GRU/LSTM layers ([lecture link](http://col
 Week 8 (2019-04-02): Convolutional Neural Networks. ([practical lesson](https://github.com/yandexdataschool/Practical_DL/blob/fall18/week03_convnets/seminar_tf_keras.ipynb)).
 
 # Extra (bonus) homeworks
- - [Differentiation](https://github.com/yandexdataschool/Practical_DL/blob/spring2019/homework01/homework_differentiation.ipynb)
+ - Tutorial on [differentiation](https://github.com/yandexdataschool/Practical_DL/blob/spring2019/homework01/homework_differentiation.ipynb) (No coding!)
 
 # Extra materials used in this course.
   - The authors of this course are thankful to Vorontsov for his lectures: [link](http://www.machinelearning.ru/wiki/index.php?title=%D0%9C%D0%B0%D1%88%D0%B8%D0%BD%D0%BD%D0%BE%D0%B5_%D0%BE%D0%B1%D1%83%D1%87%D0%B5%D0%BD%D0%B8%D0%B5_%28%D0%BA%D1%83%D1%80%D1%81_%D0%BB%D0%B5%D0%BA%D1%86%D0%B8%D0%B9%2C_%D0%9A.%D0%92.%D0%92%D0%BE%D1%80%D0%BE%D0%BD%D1%86%D0%BE%D0%B2%29).
