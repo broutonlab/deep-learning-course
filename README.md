@@ -14,7 +14,7 @@ Week 6 (2019-03-19): Word Embeddings, word2vec. Practical lesson: automatic text
 
 Week 7 (2019-03-26): Internals of RNN/GRU/LSTM layers ([lecture link](http://colah.github.io/posts/2015-08-Understanding-LSTMs/)).Named entities recognition (practical lesson).
 
-Week 8 (2019-04-02): Convolutional Neural Networks  ([lecture link](http://cs231n.github.io/convolutional-networks/)). (practical lesson).
+Week 8 (2019-04-02): Convolutional Neural Networks  ([lecture link](http://cs231n.github.io/convolutional-networks/)). ([practical lesson](https://github.com/yandexdataschool/Practical_DL/blob/fall18/week03_convnets/seminar_tf_keras.ipynb)).
 
 # Extra (bonus) homeworks
  - [Differentiation](https://github.com/yandexdataschool/Practical_DL/blob/spring2019/homework01/homework_differentiation.ipynb)
