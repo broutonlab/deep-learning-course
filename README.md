@@ -18,6 +18,8 @@ Week 8 (2019-04-02): Convolutional Neural Networks. ([practical lesson](https://
 
 Week 9 (2019-04-09): Autoencoders. ([practical lesson](https://github.com/yandexdataschool/Practical_DL/blob/fall18/week08_autoencoders/autoencoders_tf.ipynb)).
 
+Week 10 (2019-04-16): Attention.
+
 # Extra (bonus) homeworks
  - Tutorial on [differentiation](https://github.com/yandexdataschool/Practical_DL/blob/spring2019/homework01/homework_differentiation.ipynb) (No coding!)
 
