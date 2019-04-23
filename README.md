@@ -20,7 +20,7 @@ Week 9 (2019-04-09): Autoencoders. ([practical lesson](https://github.com/yandex
 
 Week 10 (2019-04-16): Attention.
 
-Week 11 (2019-04-23): Google Transformer.
+Week 11 (2019-04-23): Google Transformer. ([practical lesson](https://github.com/yandexdataschool/Practical_DL/blob/fall18/week09_adversarial/adversarial_tf.ipynb) on GANs).
 
 # Extra (bonus) homeworks
  - Tutorial on [differentiation](https://github.com/yandexdataschool/Practical_DL/blob/spring2019/homework01/homework_differentiation.ipynb) (No coding!)
