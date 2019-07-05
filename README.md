@@ -2,25 +2,25 @@
 
 Course on deep learning and it's applications in Computer Vision, Natural Language Processing and Reinforcement Learning
 
-Week 1 (2019-02-12): Course introduction. 
+week01 (2019-02-12): Course introduction. 
 
-Week 2 (2019-02-19): We discussed basic terminology of machine learning ([lecture link](http://www.machinelearning.ru/wiki/images/f/fc/Voron-ML-Intro-slides.pdf)).
+week02 (2019-02-19): We discussed basic terminology of machine learning ([lecture link](http://www.machinelearning.ru/wiki/images/f/fc/Voron-ML-Intro-slides.pdf)).
 
-Week 3 (2019-02-26): Linear methods via SGD. Playing with titanic notebook ([lecture link](http://www.machinelearning.ru/wiki/images/5/53/Voron-ML-Lin-SG.pdf), [titanic competition](https://www.kaggle.com/francksylla/titanic-machine-learning-from-disaster)).
+week03 (2019-02-26): Linear methods via SGD. Playing with titanic notebook ([lecture link](http://www.machinelearning.ru/wiki/images/5/53/Voron-ML-Lin-SG.pdf), [titanic competition](https://www.kaggle.com/francksylla/titanic-machine-learning-from-disaster)).
 
-Week 4-5 (2019-03-05, 2019-03-12): Neural networks. Backpropagation. Momentum, NAG, RMSProp, AdaDelta, Adam. Optimization tricks ([lecture link](http://www.machinelearning.ru/wiki/images/3/38/Voron-ML-NeuralNets1-2018-slides.pdf)). Practical lesson: classsification of russian texts via keras, gensim.
+week04-05 (2019-03-05, 2019-03-12): Neural networks. Backpropagation. Momentum, NAG, RMSProp, AdaDelta, Adam. Optimization tricks ([lecture link](http://www.machinelearning.ru/wiki/images/3/38/Voron-ML-NeuralNets1-2018-slides.pdf)). Practical lesson: classsification of russian texts via keras, gensim.
 
-Week 6 (2019-03-19): Word Embeddings, word2vec. Practical lesson: automatic text generation ([lecture link](http://www.machinelearning.ru/wiki/images/b/b3/Word2Vec.pdf))
+week06 (2019-03-19): Word Embeddings, word2vec. Practical lesson: automatic text generation ([lecture link](http://www.machinelearning.ru/wiki/images/b/b3/Word2Vec.pdf))
 
-Week 7 (2019-03-26): Internals of RNN/GRU/LSTM layers ([lecture link](http://colah.github.io/posts/2015-08-Understanding-LSTMs/)).Named entities recognition (practical lesson).
+week07 (2019-03-26): Internals of RNN/GRU/LSTM layers ([lecture link](http://colah.github.io/posts/2015-08-Understanding-LSTMs/)).Named entities recognition (practical lesson).
 
-Week 8 (2019-04-02): Convolutional Neural Networks. ([practical lesson](https://github.com/yandexdataschool/Practical_DL/blob/fall18/week03_convnets/seminar_tf_keras.ipynb)).
+week08 (2019-04-02): Convolutional Neural Networks. ([practical lesson](https://github.com/yandexdataschool/Practical_DL/blob/fall18/week03_convnets/seminar_tf_keras.ipynb)).
 
-Week 9 (2019-04-09): Autoencoders. ([practical lesson](https://github.com/yandexdataschool/Practical_DL/blob/fall18/week08_autoencoders/autoencoders_tf.ipynb)).
+week09 (2019-04-09): Autoencoders. ([practical lesson](https://github.com/yandexdataschool/Practical_DL/blob/fall18/week08_autoencoders/autoencoders_tf.ipynb)).
 
-Week 10 (2019-04-16): Attention.
+week10 (2019-04-16): Attention.
 
-Week 11 (2019-04-23): Google Transformer. ([practical lesson](https://github.com/yandexdataschool/Practical_DL/blob/fall18/week09_adversarial/adversarial_tf.ipynb) on GANs).
+week11 (2019-04-23): Google Transformer. ([practical lesson](https://github.com/yandexdataschool/Practical_DL/blob/fall18/week09_adversarial/adversarial_tf.ipynb) on GANs).
 
 # Extra (bonus) homeworks
  - Tutorial on [differentiation](https://github.com/yandexdataschool/Practical_DL/blob/spring2019/homework01/homework_differentiation.ipynb) (No coding!)
