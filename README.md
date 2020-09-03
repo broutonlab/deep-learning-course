@@ -1,5 +1,7 @@
 # Course details
 
+[Link](https://t.me/joinchat/Biuowhkctyk2_pnhE3G-Vw) for telegram group.
+
 Course on deep learning and it's applications in Computer Vision, Natural Language Processing and Reinforcement Learning
 
 week01 (2020-09-03): Course introduction. 
