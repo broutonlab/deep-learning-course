@@ -10,7 +10,7 @@ week02 (2020-09-10): We discussed basic terminology of machine learning ([lectur
 
 week03 (2020-09-17): Linear methods via SGD ([link](http://www.machinelearning.ru/wiki/images/5/53/Voron-ML-Lin-SG.pdf)) and artificial neural networks ([link](http://www.machinelearning.ru/wiki/images/3/38/Voron-ML-NeuralNets1-2018-slides.pdf))
 
-week03 (2020-09-24): Backpropagation. Momentum, NAG, RMSProp, AdaDelta, Adam. Optimization tricks ([link](http://www.machinelearning.ru/wiki/images/3/38/Voron-ML-NeuralNets1-2018-slides.pdf)). Practical lesson: classsification of russian texts via keras, gensim.
+week04 (2020-09-24): Backpropagation. Momentum, NAG, RMSProp, AdaDelta, Adam. Optimization tricks ([link](http://www.machinelearning.ru/wiki/images/3/38/Voron-ML-NeuralNets1-2018-slides.pdf)). Practical lesson: classsification of russian texts via keras, gensim.
 
 
 # Extra materials used in this course.
