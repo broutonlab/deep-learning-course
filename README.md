@@ -12,7 +12,7 @@ week03 (2020-09-17): Linear methods via SGD ([link](http://www.machinelearning.r
 
 week04 (2020-09-24): Backpropagation. Momentum, NAG, RMSProp, AdaDelta, Adam. Optimization tricks ([link](http://www.machinelearning.ru/wiki/images/3/38/Voron-ML-NeuralNets1-2018-slides.pdf)). Practical lesson: classsification of russian texts via keras, gensim.
 
-week05 (2020-10-01): Word Embeddings, word2vec.
+week05 (2020-10-01): Word Embeddings, word2vec. Individual practice and Q&A.
 
 week06 (2020-10-08): Internals of RNN/GRU/LSTM layers ([lecture link](http://colah.github.io/posts/2015-08-Understanding-LSTMs/))
 
