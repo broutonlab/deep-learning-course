@@ -18,7 +18,8 @@ week06 (2020-10-08): Internals of RNN/GRU/LSTM layers ([lecture link](http://col
 
 week07 (2020-10-15): Convolutional Neural Networks.
 
-week08 (2020-10-22): Named Entity Recogntion. Practical lesson.
+week08 (2020-10-22): Named Entity Recogntion (word based approach). Practical lesson.
+
 
 
 # Extra materials used in this course.
