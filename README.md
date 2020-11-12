@@ -20,7 +20,7 @@ week07 (2020-10-15): Convolutional Neural Networks.
 
 week08 (2020-10-22): Named Entity Recogntion (word based approach). Practical lesson.
 
-week09 (2020-10-28): Named Entity Recogntion (mixed approach). Practical lesson.
+week09 (2020-10-29): Named Entity Recogntion (mixed approach). Practical lesson.
 
 week10 (2020-11-05): Attention
 
