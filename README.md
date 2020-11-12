@@ -24,7 +24,7 @@ week09 (2020-10-28): Named Entity Recogntion (mixed approach). Practical lesson.
 
 week10 (2020-11-05): Attention
 
-week10 (2020-11-12): Text Generation. Practical lesson
+week11 (2020-11-12): Text Generation. Practical lesson
 
 
 
