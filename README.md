@@ -26,6 +26,8 @@ week10 (2020-11-05): Attention
 
 week11 (2020-11-12): Text Generation. Practical lesson
 
+week12 (2020-11-19): Image classification. Practical lesson ([link](https://github.com/yandexdataschool/Practical_DL/blob/fall20/week03_convnets/seminar_tf_keras.ipynb))
+
 
 
 # Extra materials used in this course.
