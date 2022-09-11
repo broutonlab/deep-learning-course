@@ -24,8 +24,11 @@ def optim_install_dependencies():
     except ImportError:
         subprocess.check_call(
             [sys.executable, '-m', 'pip', 'install', 'matplotlib==3.5.3'])
-
-    globals()['matplotlib'] = importlib.import_module('matplotlib')
+        
+        print("Installed successfully!")
+        print("Please, restart the kernel!")
+        import os
+        os.kill(os.getpid(), 9)
 
 
 def optim_configure_notebooks():
