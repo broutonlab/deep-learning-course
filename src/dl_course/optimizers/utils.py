@@ -1,33 +1,29 @@
 import matplotlib.style as mplstyle
+import numpy as np
 from matplotlib import cm, rc
 import torch
 
 
 def optim_install_dependencies():
     import pip
+    import importlib
     try:
-        import torch_optimizer as optim
-        if optim.Ranger is None:
-            raise Exception('Wrong torch_optim version!')
-    except:
-        pip.main(['install'], 'torch_optimizer==0.3.0')
-
-    try:
-        import matplotlib
-        if matplotlib.__version__ != '3.5.3':
-            raise Exception('Wrong matplotlib version')
-    except:
-        pip.main(['install'], 'matplotlib==3.5.3')
-        print("Installation successful! PLEASE RESTART THE RUNTIME!")
-        import os
-        os.kill(os.getpid(), 9)
+        importlib.import_module("torch_optimizer")
+        import torch_optimizer
+        if torch_optimizer.Ranger is None:
+            raise ImportError('Wrong torch_optim version!')
+    except ImportError:
+        import sys
+        import subprocess
+        subprocess.check_call(
+            [sys.executable, '-m', 'pip', 'install', 'torch_optimizer==0.3.0'])
 
 
 def optim_configure_notebooks():
     mplstyle.use('fast')
     rc('animation', html='jshtml')
     try:
-        import google.colab
+        importlib.import_module("google.colab")
         IN_COLAB = True
     except:
         IN_COLAB = False

@@ -1,4 +1,6 @@
 import numpy as np
+import matplotlib.pyplot as plt
+from matplotlib.animation import FuncAnimation
 
 
 def visualize_3d(f, paths=None, colors=None, xlim=None, elev=None, azim=None, anim_length=5, frames_per_sec=4):
