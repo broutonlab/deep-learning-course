@@ -2,39 +2,41 @@ import matplotlib.style as mplstyle
 from matplotlib import cm, rc
 import torch
 
+
 def optim_install_dependencies():
+    import pip
     try:
-      import torch_optimizer as optim
-      if optim.Ranger is None:
-        raise Exception('Wrong torch_optim version!')
+        import torch_optimizer as optim
+        if optim.Ranger is None:
+            raise Exception('Wrong torch_optim version!')
     except:
-      !pip install torch_optimizer==0.3.0
+        pip.main(['install'], 'torch_optimizer==0.3.0')
 
     try:
-      import matplotlib
-      if matplotlib.__version__ != '3.5.3':
-        raise Exception('Wrong matplotlib version')
+        import matplotlib
+        if matplotlib.__version__ != '3.5.3':
+            raise Exception('Wrong matplotlib version')
     except:
-      !pip install matplotlib==3.5.3
-      !echo "Installation successful! PLEASE RESTART THE RUNTIME!"
-      import os
-      os.kill(os.getpid(), 9)
-      
-      
+        pip.main(['install'], 'matplotlib==3.5.3')
+        print("Installation successful! PLEASE RESTART THE RUNTIME!")
+        import os
+        os.kill(os.getpid(), 9)
+
+
 def optim_configure_notebooks():
     mplstyle.use('fast')
     rc('animation', html='jshtml')
     try:
-      import google.colab
-      IN_COLAB = True
+        import google.colab
+        IN_COLAB = True
     except:
-      IN_COLAB = False
-      
+        IN_COLAB = False
+
     if IN_COLAB:
-      from google.colab import output
-      output.enable_custom_widget_manager()
-      
-      
+        from google.colab import output
+        output.enable_custom_widget_manager()
+
+
 def print_convergence(path):
     print(f'{path["name"]} converged to: {path["xs"][-1]}, {path["ys"][-1]}')
     print(f'Last loss: {path["zs"][-1]}')
@@ -45,11 +47,11 @@ def path_from_trace(optimizer, trace):
     path_name = optimizer.__name__
 
     path = {
-      "xs": trace[:, 0],
-      "ys": trace[:, 1],
-      "zs": trace[:, 2], 
-      "name": path_name,
-      "best_loss": min(trace[:, 2])
+        "xs": trace[:, 0],
+        "ys": trace[:, 1],
+        "zs": trace[:, 2],
+        "name": path_name,
+        "best_loss": min(trace[:, 2])
     }
 
     return path
@@ -59,7 +61,7 @@ def run_optim(w, f, optimizer, n_iter, **optim_params):
     """
     Runs step-by-step optimization and outputs sequence of
     optimizer steps
-    
+
     Parameters
     ----------
     w : array_like
@@ -71,10 +73,10 @@ def run_optim(w, f, optimizer, n_iter, **optim_params):
     n_iter : int
         Number of iterations.
     """
-    
+
     trace = np.empty((n_iter + 1, 3))
     trace[0, :] = np.array([w[0], w[1], f(w)])
-    
+
     for i in range(n_iter):
         # we're moving our array to torch
         # to avoid computing the gradient ourselves
@@ -95,7 +97,7 @@ def run_torch_optim(w, f, optimizer_cls, n_iter, **optim_params):
     """
     Runs torch-based optimizer and outputs sequence of
     optimizer steps
-    
+
     Parameters
     ----------
     w : array_like
@@ -107,7 +109,7 @@ def run_torch_optim(w, f, optimizer_cls, n_iter, **optim_params):
     n_iter : int
         Number of iterations.
     """
-    
+
     trace = np.empty((n_iter + 1, 3))
     trace[0, :] = np.array([w[0], w[1], f(w)])
     w_t = torch.tensor(w, requires_grad=True)
