@@ -2,7 +2,9 @@
 
 Course on deep learning and it's applications in Computer Vision, Natural Language Processing
 
-week01: will be published soon...
+week01: 
+  - [Intro](https://drive.google.com/file/d/1HpQt2PKOF7miPMRThgc-Ca_RkYFdQMFy/view?usp=sharing)
+
 
 # Extra materials used in this course.
  - [Practical_DL](https://github.com/yandexdataschool/Practical_DL) repository
