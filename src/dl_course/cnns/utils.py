@@ -1,6 +1,7 @@
 import numpy as np
 import pandas as pd
 import os
+import torch
 
 
 def preview_dataset(dataset_path, num_images=5):
@@ -25,7 +26,7 @@ def download_dataset(dataset_path, file_id):
     """
     Download dataset in a specified path
     """
-    
+
     if os.path.isdir(dataset_path):
         print("Dataset is probably already installed...")
         return
@@ -47,3 +48,34 @@ def download_dataset(dataset_path, file_id):
     with zipfile.ZipFile(filename, 'r') as zip_ref:
         zip_ref.extractall(dataset_path)
     print("Done!")
+
+
+def visualize_model(model, datamodule, class_names, num_images=6):
+    import matplotlib.pyplot as plt
+
+    was_training = model.training
+    model.eval()
+    images_so_far = 0
+    fig = plt.figure(figsize=(10, 8))
+
+    with torch.no_grad():
+        for i, datapoints in enumerate(datamodule.test_dataloader()):
+
+            inputs = datapoints["X"]
+            labels = datapoints["y"]
+
+            outputs = model(inputs)
+            _, preds = torch.max(outputs, 1)
+
+            for j in range(inputs.size()[0]):
+                images_so_far += 1
+                ax = plt.subplot(num_images//2, 2, images_so_far)
+                ax.axis('off')
+
+                ax.set_title(f'predicted: {class_names[preds[j].item()]}')
+                plt.imshow(inputs.cpu().permute(0, 2, 3, 1).data[j])
+
+                if images_so_far == num_images:
+                    model.train(mode=was_training)
+                    return
+        model.train(mode=was_training)
