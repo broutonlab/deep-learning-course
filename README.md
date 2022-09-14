@@ -3,8 +3,7 @@
 Course on deep learning and it's applications in Computer Vision, Natural Language Processing
 
 week01: 
-[Introductory lecture](https://drive.google.com/file/d/1HpQt2PKOF7miPMRThgc-Ca_RkYFdQMFy/view?usp=sharing) about the course and the [basics of Machine Learning]
-(http://www.machinelearning.ru/wiki/images/f/fc/Voron-ML-Intro-slides.pdf) in russian.
+[Introductory lecture](https://drive.google.com/file/d/1HpQt2PKOF7miPMRThgc-Ca_RkYFdQMFy/view?usp=sharing) about the course and the [basics of Machine Learning](http://www.machinelearning.ru/wiki/images/f/fc/Voron-ML-Intro-slides.pdf) in russian.
 
 week02: coming soon... 
 
