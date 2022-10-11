@@ -129,7 +129,7 @@ class BaseNet:
 
     def training_step(self, X_batch: np.ndarray,
                       y_batch: np.ndarray,
-                      optimizer: courseutils.Optimizer):
+                      optimizer: Optimizer):
         # normally you don't have to do this, but we're doing numpy today
         y_batch = y_batch.numpy()
         X_batch = X_batch.numpy()
