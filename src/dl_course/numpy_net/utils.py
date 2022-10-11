@@ -4,6 +4,7 @@ import torch
 import random
 import torchvision
 from tqdm import tqdm
+from IPython.display import clear_output
 from typing import Tuple
 
 
@@ -125,6 +126,53 @@ class BaseNet:
             val_accuracy += self.check_accuracy(X_val_batch, y_val_batch)
             val_i += 1
         return val_accuracy / val_i
+
+    def training_step(self, X_batch: np.ndarray,
+                      y_batch: np.ndarray,
+                      optimizer: courseutils.Optimizer):
+        # normally you don't have to do this, but we're doing numpy today
+        y_batch = y_batch.numpy()
+        X_batch = X_batch.numpy()
+
+        # forward pass
+        output, caches = self.forward(X_batch)
+
+        # backward pass
+        loss, grads = self.backward(output, y_batch, caches)
+
+        # this is usually encapsulated in optimizer.step()
+        for key, weight in self.params.items():
+            self.params[key] = optimizer(weight, grads[key], key)
+
+        self.loss_history.append(loss)
+
+    def train(self, num_epochs: int = 10):
+        best_params = {}
+        best_val_acc = -1
+        for num_epoch in range(num_epochs):
+            running_accuracy = 0
+            i = 0
+            for data in tqdm(self.trainloader):
+                X_batch, y_batch = data
+                self.training_step(X_batch, y_batch, self.optimizer)
+                running_accuracy += self.check_accuracy(X_batch, y_batch)
+                i += 1
+            training_loss = np.mean(self.loss_history)
+            train_acc = running_accuracy / i
+            clear_output(wait=True)
+            val_acc = self.validation()
+            self.loss_history = []
+
+            print("%d epoch:\n training loss: %.4f\n "
+                  "training accuracy: %.4f\n validation accuracy: %.4f" % (num_epoch + 1,
+                                                                           training_loss,
+                                                                           train_acc, val_acc))
+
+            if val_acc > best_val_acc:
+                best_val_acc = val_acc
+                best_params = self.params
+
+        self.params = best_params
 
 
 def test_CIFAR10(model, classes, root, transform, num_images=10):
