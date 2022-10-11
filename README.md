@@ -5,7 +5,16 @@ Course on deep learning and it's applications in Computer Vision, Natural Langua
 week01: 
 [Introductory lecture](https://drive.google.com/file/d/1HpQt2PKOF7miPMRThgc-Ca_RkYFdQMFy/view?usp=sharing) about the course and the [basics of Machine Learning](http://www.machinelearning.ru/wiki/images/f/fc/Voron-ML-Intro-slides.pdf) in russian.
 
-week02: coming soon... 
+week02:
+started tutorial on basics of numpy
+
+week03:
+[lecture on SGD](http://www.machinelearning.ru/wiki/images/5/53/Voron-ML-Lin-SG.pdf).
+
+week04:
+started tutortial on optimizers
+
+
 
 # Extra materials used in this course.
  - [Practical_DL](https://github.com/yandexdataschool/Practical_DL) repository
