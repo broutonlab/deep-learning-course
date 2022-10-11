@@ -3,6 +3,7 @@ import ipyplot
 import torch
 import random
 import torchvision
+import tqdm
 from typing import Tuple
 
 
@@ -75,7 +76,7 @@ class BaseNet:
     def _training_step(self, X_batch: np.ndarray, y_batch: np.ndarray, optimizer: Optimizer):
         pass
 
-    def check_accuracy(self, X: np.ndarray, y: np.ndarray) -> float:
+    def check_accuracy(self, X: torch.Tensor, y: torch.Tensor) -> float:
         y = y.numpy()
         X = X.numpy()
         preds = self._predict(X)
