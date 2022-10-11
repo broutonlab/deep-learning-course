@@ -3,7 +3,7 @@ import ipyplot
 import torch
 import random
 import torchvision
-import tqdm
+from tqdm import tqdm
 from typing import Tuple
 
 
