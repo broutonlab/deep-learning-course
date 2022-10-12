@@ -14,6 +14,11 @@ week03:
 week04:
 started tutortial on optimizers
 
+week05:
+[lecture on backprop](http://www.machinelearning.ru/wiki/images/e/e1/Voron-ML-ANN-slides.pdf)
+
+week06:
+started numpy net tutorial
 
 
 # Extra materials used in this course.
