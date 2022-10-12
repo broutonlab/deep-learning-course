@@ -18,7 +18,7 @@ week05:
 [lecture on backprop](http://www.machinelearning.ru/wiki/images/e/e1/Voron-ML-ANN-slides.pdf)
 
 week06:
-started numpy net tutorial
+started numpy [net tutorial](https://github.com/broutonlab/deep-learning-course/tree/2022-fall/tutorial_numpy_net)
 
 
 # Extra materials used in this course.
