@@ -1,6 +1,7 @@
 import random
 import torch
 import ipyplot
+import torchvision.transforms as T
 
 
 def test_model_on_datamodule(model, datamodule, classes, device='cuda', num_images=10):
