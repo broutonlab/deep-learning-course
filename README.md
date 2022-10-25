@@ -20,6 +20,9 @@ week05:
 week06:
 started numpy [net tutorial](https://github.com/broutonlab/deep-learning-course/tree/2022-fall/tutorial_numpy_net)
 
+week07:
+lecture on basics of deep learning in computer vision]
+
 
 # Extra materials used in this course.
  - [Practical_DL](https://github.com/yandexdataschool/Practical_DL) repository
