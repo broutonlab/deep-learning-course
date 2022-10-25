@@ -21,7 +21,7 @@ week06:
 started numpy [net tutorial](https://github.com/broutonlab/deep-learning-course/tree/2022-fall/tutorial_numpy_net)
 
 week07:
-lecture on basics of deep learning in computer vision]
+[lecture on basics of deep learning in computer vision](https://github.com/broutonlab/deep-learning-course/blob/2022-fall/tutorial_cnns/convnets.pdf)
 
 
 # Extra materials used in this course.
