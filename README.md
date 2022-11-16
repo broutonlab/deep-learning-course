@@ -23,6 +23,15 @@ started numpy [net tutorial](https://github.com/broutonlab/deep-learning-course/
 week07:
 [lecture on basics of deep learning in computer vision](https://github.com/broutonlab/deep-learning-course/blob/2022-fall/tutorial_cnns/convnets.pdf)
 
+week08: Deep Learning in NLP, Word Embeddings, Word2vec 
+
+week09: RNNs/GRU/LSTMs
+
+week10:
+
+week11:
+lecture on [transfer learning](https://disk.yandex.ru/i/eyCRxQHx3NH2dg) and [attention](https://drive.google.com/file/d/1m0Fywe9RmyWXSn2_hTMN8hCaAlDotIcy/view?usp=share_link)
+
 
 # Extra materials used in this course.
  - [Practical_DL](https://github.com/yandexdataschool/Practical_DL) repository
