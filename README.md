@@ -32,6 +32,9 @@ week10:
 week11:
 lecture on [transfer learning](https://disk.yandex.ru/i/eyCRxQHx3NH2dg) and [attention](https://drive.google.com/file/d/1m0Fywe9RmyWXSn2_hTMN8hCaAlDotIcy/view?usp=share_link)
 
+week12:
+Practice, [NER/HuggingFace](https://github.com/broutonlab/deep-learning-course/tree/2022-fall/tutorial_huggingface)
+
 
 # Extra materials used in this course.
  - [Practical_DL](https://github.com/yandexdataschool/Practical_DL) repository
