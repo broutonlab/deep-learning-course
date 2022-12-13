@@ -1,6 +1,7 @@
 from IPython.display import display
 from PIL import Image
 import matplotlib.pyplot as plt
+import torch
 import math
 
 def make_grid(images, rows, cols):
