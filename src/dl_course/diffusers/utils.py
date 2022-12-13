@@ -3,6 +3,7 @@ from PIL import Image
 import matplotlib.pyplot as plt
 import torch
 import math
+import os
 
 def make_grid(images, rows, cols):
     w, h = images[0].size
