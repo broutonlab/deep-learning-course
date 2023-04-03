@@ -3,7 +3,7 @@
 Course on deep learning and it's applications in Computer Vision, Natural Language Processing
 
 week01: 
-[Introductory lecture](https://drive.google.com/file/d/1HpQt2PKOF7miPMRThgc-Ca_RkYFdQMFy/view?usp=sharing) about the course and the [basics of Machine Learning](http://www.machinelearning.ru/wiki/images/f/fc/Voron-ML-Intro-slides.pdf) in russian.
+[Introductory lecture](https://drive.google.com/file/d/1HpQt2PKOF7miPMRThgc-Ca_RkYFdQMFy/view?usp=sharing) about the course and the [basics of Machine Learning](http://www.machinelearning.ru/wiki/images/f/fc/Voron-ML-Intro-slides.pdf).
 
 week02:
 started tutorial on basics of numpy
@@ -46,4 +46,4 @@ Practice, [NER/HuggingFace](https://github.com/broutonlab/deep-learning-course/t
  
  
  # Articles
- - [Review of linear methods](https://habr.com/ru/company/ods/blog/323890/#1-lineynaya-regressiya) by ODS community (Russian)
+ - [Review of linear methods](https://habr.com/ru/company/ods/blog/323890/#1-lineynaya-regressiya) by ODS community
