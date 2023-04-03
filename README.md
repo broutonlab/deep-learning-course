@@ -27,7 +27,7 @@ week08: Deep Learning in NLP, Word Embeddings, Word2vec
 
 week09: RNNs/GRU/LSTMs
 
-week10:
+week10: seminar, knowledge test
 
 week11:
 lecture on [transfer learning](https://disk.yandex.ru/i/eyCRxQHx3NH2dg) and [attention](https://drive.google.com/file/d/1m0Fywe9RmyWXSn2_hTMN8hCaAlDotIcy/view?usp=share_link)
